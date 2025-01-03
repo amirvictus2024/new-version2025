@@ -55,6 +55,29 @@
     animation: rotate 1.5s linear infinite;
 }
 
+.generate-dns {
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+    color: var(--background);
+    font-family: 'RDR', sans-serif;
+    letter-spacing: 1px;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: block;
+}
+
+.generate-dns:hover {
+    background-color: var(--background);
+    color: var(--accent);
+    box-shadow: 0 4px 15px var(--shadow-color);
+}
+
 * {
     margin: 0;
     padding: 0;
